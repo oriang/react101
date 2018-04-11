@@ -1,6 +1,5 @@
 import * as React from "react";
 import { rawData } from "../data/raw.data";
-import ReactTable from "react-table";
 
 const toFloat = field => parseFloat(field.price.replace("₪", ""));
 const sum = (a, b) => a + b;
